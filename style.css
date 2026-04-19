@@ -40,5 +40,5 @@ p {
 
 .git-highlight {
     color: #f05032; /* Official Git logo color */
-    font-weight: 600;
+    font-weight: 600; /* Backend added */
 }
