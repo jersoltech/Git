@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 4rem 6rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin: 0 0 1rem 0;
+    letter-spacing: 2px;
+}
+
+.brand {
+    color: #00d2ff;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0;
+    color: #e0e0e0;
+}
+
+.git-highlight {
+    color: #f05032; /* Official Git logo color */
+    font-weight: 600;
+}
